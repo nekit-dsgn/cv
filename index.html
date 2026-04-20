@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Barabash – Middle Product Designer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#1a1a1a;background:#f8f9fa;min-height:100vh;padding:40px 20px}
+        .container{max-width:800px;margin:0 auto;background:#fff;border-radius:2px;box-shadow:0 2px 10px rgba(0,0,0,.08);overflow:hidden}
+        .header{background:#1a1a1a;color:#fff;padding:60px 50px;text-align:center}
+        .name{font-size:2.8em;font-weight:700;margin-bottom:8px;letter-spacing:-.02em}
+        .title{font-size:1.1em;font-weight:400;opacity:.85;margin-bottom:30px;letter-spacing:.3px}
+        .contact-info{display:flex;justify-content:center;flex-wrap:wrap;gap:30px;font-size:.95em;font-weight:400}
+        .contact-item{opacity:.9;transition:opacity .2s ease}
+        .contact-item:hover{opacity:1}
+        .contact-item a{color:#fff;text-decoration:none;border-bottom:1px solid transparent;transition:border-bottom .2s ease}
+        .contact-item a:hover{border-bottom:1px solid #fff}
+        .content{padding:50px}
+        .section{margin-bottom:50px}
+        .section:last-child{margin-bottom:0}
+        .section-title{font-size:1.3em;font-weight:600;color:#1a1a1a;margin-bottom:25px;padding-bottom:8px;border-bottom:1px solid #e0e0e0;letter-spacing:-.01em}
+        .summary{font-size:1.05em;line-height:1.7;color:#333;font-weight:400}
+        .job{margin-bottom:35px;padding-bottom:30px;border-bottom:1px solid #f0f0f0}
+        .job:last-child{border-bottom:none;padding-bottom:0;margin-bottom:0}
+        .job-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:15px;gap:20px}
+        .job-title{font-size:1.1em;font-weight:600;color:#1a1a1a;letter-spacing:-.01em;text-transform:uppercase}
+        .company{font-weight:500;color:#666;margin-top:3px;font-size:.95em}
+        .period{font-size:.9em;color:#888;font-weight:400;white-space:nowrap;margin-top:2px}
+        .achievements,.skills-list{list-style:none;margin-top:15px}
+        .achievements li,.skills-list li{margin-bottom:8px;padding-left:20px;position:relative;color:#444;font-size:.95em;line-height:1.5}
+        .achievements li::before,.skills-list li::before{content:'•';position:absolute;left:0;color:#666;font-weight:700;font-size:1.2em}
+        .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px}
+        .skills-group-title{font-size:.95em;font-weight:600;color:#1a1a1a;margin-bottom:12px;letter-spacing:.02em}
+        .edu-item{padding:20px 0}
+        .edu-school{font-weight:600;color:#1a1a1a;font-size:1.05em;margin-bottom:4px}
+        .edu-details{color:#666;font-size:.95em;margin-bottom:4px}
+        .edu-period{color:#888;font-size:.9em}
+        .info-row{display:flex;margin-bottom:14px;gap:15px;font-size:.95em;line-height:1.5}
+        .info-row:last-child{margin-bottom:0}
+        .info-label{font-weight:600;color:#1a1a1a;min-width:130px;flex-shrink:0}
+        .info-value{color:#444}
+        .info-value a{color:#1a1a1a;text-decoration:none;border-bottom:1px solid #ccc;transition:border-bottom .2s ease}
+        .info-value a:hover{border-bottom:1px solid #1a1a1a}
+        @media(max-width:768px){body{padding:20px 10px}.container{border-radius:0}.header{padding:40px 30px}.name{font-size:2.2em}.contact-info{flex-direction:column;gap:12px}.content{padding:40px 30px}.job-header{flex-direction:column;gap:8px}.period{white-space:normal}.skills-grid{grid-template-columns:1fr;gap:25px}.info-row{flex-direction:column;gap:4px}.info-label{min-width:0}}
+        @media(max-width:480px){.header{padding:30px 20px}.content{padding:30px 20px}.name{font-size:1.8em}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="name">NIKITA BARABASH</h1>
+            <div class="title">Middle Product Designer</div>
+            <div class="contact-info">
+                <div class="contact-item">Batumi, Georgia</div>
+                <div class="contact-item"><a href="tel:+995599103874">+995 599 103 874</a></div>
+                <div class="contact-item"><a href="mailto:ex.nekittt@gmail.com">ex.nekittt@gmail.com</a></div>
+                <div class="contact-item"><a href="https://nekit-dsgn.figma.site" target="_blank" rel="noopener">Portfolio</a></div>
+                <div class="contact-item"><a href="https://dribbble.com/ex_nekittt" target="_blank" rel="noopener">Dribbble</a></div>
+                <div class="contact-item"><a href="https://behance.net/nekitt" target="_blank" rel="noopener">Behance</a></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Summary -->
+            <div class="section">
+                <h2 class="section-title">Summary</h2>
+                <div class="summary">
+                    Middle product designer with 3+ years of experience designing web and mobile interfaces across SaaS, fintech, e-commerce, healthcare, legal-tech, and 3D-focused products. Strong in user flows, wireframing, high-fidelity UI, prototyping, design systems, responsive design, and developer handoff.
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="section">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div>
+                        <div class="skills-group-title">Product Design</div>
+                        <ul class="skills-list">
+                            <li>User flows &amp; IA</li>
+                            <li>Wireframing</li>
+                            <li>High-fidelity UI</li>
+                            <li>Responsive design</li>
+                            <li>UX audits</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="skills-group-title">Tools &amp; Systems</div>
+                        <ul class="skills-list">
+                            <li>Figma</li>
+                            <li>Auto Layout</li>
+                            <li>Components &amp; variants</li>
+                            <li>Design systems</li>
+                            <li>Design tokens</li>
+                            <li>Basic HTML/CSS</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="skills-group-title">Collaboration &amp; Language</div>
+                        <ul class="skills-list">
+                            <li>Developer handoff</li>
+                            <li>Cross-functional collaboration</li>
+                            <li>Stakeholder communication</li>
+                            <li>Russian — native</li>
+                            <li>Ukrainian — native</li>
+                            <li>English — B2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="section">
+                <h2 class="section-title">Experience</h2>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">MIDDLE PRODUCT DESIGNER</div>
+                            <div class="company">Todor3D</div>
+                        </div>
+                        <div class="period">2026 – Present</div>
+                    </div>
+                    <ul class="achievements">
+                        <li>Designed web interfaces and mobile apps for products with AI integration (such as a platform for generating digital content, featuring gamification and an internal system of points, ranks, etc.).</li>
+                        <li>Built reusable design systems, responsive layouts, prototypes, and developer-ready handoff files in Figma.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">MIDDLE UX/UI DESIGNER</div>
+                            <div class="company">Nexa Design</div>
+                        </div>
+                        <div class="period">2025 – 2026</div>
+                    </div>
+                    <ul class="achievements">
+                        <li>Created design systems with tokens, components, and scalable UI patterns for SaaS, fintech, and e-commerce products.</li>
+                        <li>Designed onboarding, checkout, dashboard, and referral flows; conducted UX audits and supported implementation with developers.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">MIDDLE UX/UI DESIGNER</div>
+                            <div class="company">DESH Team</div>
+                        </div>
+                        <div class="period">2025</div>
+                    </div>
+                    <ul class="achievements">
+                        <li>Developed websites and mobile app interfaces for crypto, SaaS, and enterprise clients, improving usability and user engagement while ensuring a consistent responsive design across all client projects.</li>
+                        <li>Worked with project managers and developers on discovery, prototypes, design reviews, and delivery.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">UX/UI DESIGNER</div>
+                            <div class="company">Freelance</div>
+                        </div>
+                        <div class="period">2023 – 2024</div>
+                    </div>
+                    <ul class="achievements">
+                        <li>Delivered 10+ UI/UX projects for e-commerce, streaming, corporate and service-based products from wireframes to high-fidelity UI.</li>
+                        <li>Created design systems, interactive prototypes, and user-focused interface improvements for client launches.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">JUNIOR UX/UI DESIGNER</div>
+                            <div class="company">Magistr</div>
+                        </div>
+                        <div class="period">2022 – 2023</div>
+                    </div>
+                    <ul class="achievements">
+                        <li>Improved the company's website and digital presence through interface updates, campaign visuals, and usability improvements.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">JUNIOR UX/UI DESIGNER</div>
+                            <div class="company">B&amp;H</div>
+                        </div>
+                        <div class="period">2022</div>
+                    </div>
+                    <ul class="achievements">
+                        <li>Designed and optimized widgets, landing pages, and key e-commerce screens to support better navigation and conversion.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="edu-item">
+                    <div class="edu-school">National Academy of Communications</div>
+                    <div class="edu-details">Infocommunications and Software Engineering · Odessa, Ukraine</div>
+                    <div class="edu-period">2018</div>
+                </div>
+            </div>
+
+            <!-- Additional Information -->
+            <div class="section">
+                <h2 class="section-title">Additional Information</h2>
+                <div class="info-row">
+                    <div class="info-label">Portfolio</div>
+                    <div class="info-value">
+                        <a href="https://nekit-dsgn.figma.site" target="_blank" rel="noopener">nekit-dsgn.figma.site</a> — commercial work with detailed descriptions<br>
+                        <a href="https://dribbble.com/ex_nekittt" target="_blank" rel="noopener">dribbble.com/ex_nekittt</a> — commercial and non-commercial case studies<br>
+                        <a href="https://behance.net/nekitt" target="_blank" rel="noopener">behance.net/nekitt</a> — visual design presentations
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Focus areas</div>
+                    <div class="info-value">SaaS, fintech, e-commerce, AI-integrations, legal-tech, dashboards, mobile apps</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Work format</div>
+                    <div class="info-value">Full remote · contract · freelance · project-based collaboration</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Core strengths</div>
+                    <div class="info-value">Design systems, prototyping, UX structure, responsive layouts, handoff</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
